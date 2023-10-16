@@ -1,0 +1,1 @@
+#include "\userconfig\uo_debugconsole\adminList.hpp"
