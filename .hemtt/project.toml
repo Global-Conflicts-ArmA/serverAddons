@@ -1,0 +1,19 @@
+name = "GC Serverside Addons"
+mainprefix = "x"
+prefix = "gc_serverSide"
+author = "Global Conflicts"
+
+[files]
+include = [
+    "mod.cpp",
+    "*.paa"
+]
+
+[properties]
+url = "https://www.globalconflicts.net/"
+
+[lint.sqf]
+enabled = false
+
+[asc]
+enabled = false

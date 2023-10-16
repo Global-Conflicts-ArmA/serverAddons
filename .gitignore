@@ -1,0 +1,17 @@
+.hemttout/
+/a3/
+/x/
+
+*.pbo
+*.cache
+*.biprivatekey
+
+*/.env
+
+.vscode
+keys
+venv
+python_code/venv
+python_code/.idea
+python_code/__pycache__
+python_code/env.py
