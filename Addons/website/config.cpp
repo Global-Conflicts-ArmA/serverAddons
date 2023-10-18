@@ -2,7 +2,7 @@
 
 class CfgPatches {
 	class ADDON {
-		author = "W-Cephei";
+		author = "Global Conflicts";
 		name = QUOTE(ADDON);
 		requiredVersion = 1.0;
 		requiredAddons[] = {"gc_serverSide_main"};

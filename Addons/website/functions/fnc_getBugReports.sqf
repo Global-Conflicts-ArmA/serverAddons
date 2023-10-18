@@ -4,7 +4,7 @@ params [
 	["_unit", objNull, [objNull]]
 ];
 
-if ( _unit isEqualTo objNull) exitWith {};
+if (_unit isEqualTo objNull) exitWith {};
 
 private _thread_id = ["gc_websitefunctions.call_get_bugreports", [getPlayerUID _unit, missionName]] call py3_fnc_callExtension;
 private _has_call_finished = ["gc_websitefunctions.has_call_finished", [_thread_id]] call py3_fnc_callExtension;
